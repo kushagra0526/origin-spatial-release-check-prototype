@@ -1,0 +1,42 @@
+{
+ "cohorts": 10,
+ "slides": 1803,
+ "alias_slides": 137,
+ "alias_caught": 137,
+ "slides_wrongly_merged": 8,
+ "mean_r_own_test": {
+  "random_spot": 0.363,
+  "random_slide": 0.369,
+  "patient_id": 0.363,
+  "audit_groups": 0.35
+ },
+ "mean_r_fresh_patients": {
+  "random_spot": 0.355,
+  "random_slide": 0.355,
+  "patient_id": 0.352,
+  "audit_groups": 0.354
+ },
+ "optimism": {
+  "random_spot": 0.008,
+  "random_slide": 0.014,
+  "patient_id": 0.011,
+  "audit_groups": -0.004
+ },
+ "test_slides_with_same_block_in_train": {
+  "random_slide": 0.796,
+  "patient_id": 0.152,
+  "audit_groups": 0.0
+ },
+ "test_slides_with_same_patient_in_train": {
+  "random_slide": 0.928,
+  "patient_id": 0.188,
+  "audit_groups": 0.0
+ },
+ "audit_optimism_smallest": 3,
+ "confounding": {
+  "planted": 5,
+  "flagged_when_planted": 3,
+  "flagged_when_not": 1
+ },
+ "site_from_he_accuracy": 0.98
+}
