@@ -1,0 +1,21 @@
+{
+ "human_samples": 649,
+ "human_blank_patient": 369,
+ "cancer_samples": 348,
+ "cancer_blank_patient": 120,
+ "cancer_patients_with_ids": 106,
+ "cancer_patients_with_2plus_samples": 50,
+ "cancer_samples_in_those": 172,
+ "patient_strings_reused_across_studies": 27,
+ "human_samples_with_a_reused_string": 152,
+ "examples_of_reused": [
+  "Patient 1",
+  "patient 2",
+  "Patient 2",
+  "Patient 3",
+  "Patient 4",
+  "Patient 7"
+ ],
+ "random_sample_split_test_with_same_patient_in_train": 0.716,
+ "cancer_strings_merging_patients_from_different_studies": 13
+}

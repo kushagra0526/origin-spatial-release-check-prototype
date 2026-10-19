@@ -1,0 +1,15 @@
+{
+"note": "10 held-out worlds (cohort + fresh-patient cohort each, every other one with planted site-label skew); frozen in git before the first held-out run. Dev used worlds 0-9.",
+"seeds": [
+3609141,
+3932961,
+4210313,
+4361898,
+4803706,
+4821396,
+5706136,
+5830851,
+6141530,
+6171624
+]
+}
