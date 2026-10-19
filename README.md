@@ -15,7 +15,7 @@ Any split that misses these puts the same tissue in train and test.
 **Real public data shows the field is not enough.** In HEST-1k v1.1.0's public metadata ([mahmoodlab/HEST](https://github.com/mahmoodlab/HEST), `assets/HEST_v1_1_0.csv`, metadata only):
 - **369 of 649** human samples have a blank `patient` field.
 - Among cancer samples with an ID, **172 belong to 50 patients** with more than one sample.
-- Strings like "Patient 1" are **reused across 27 different studies**. Grouping by the string alone merges different people (13 cases in the cancer subset).
+- **27 patient strings** (like "Patient 1") are each reused across different studies. Grouping by the string alone merges different people (13 cases in the cancer subset).
 - A random 80/20 split by sample puts the **same patient in train for 71.6% of test samples**.
 
 HEST-Benchmark itself uses patient-level folds; the point is that the metadata field alone doesn't give you one. Run `python hest_audit.py` to reproduce these numbers.
